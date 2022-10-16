@@ -13,6 +13,21 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width:400px)
+{   
+    .conteiner {
+        max-width: 350px;
+    }
+
+    .box {
+        max-width: 300px;
+        text-align: center;
+    }
+    body {
+        font-size: 0.8em;
+    }
+}
 .box {
     background-color: white;
     height: 450px;

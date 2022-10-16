@@ -15,6 +15,26 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width:430px)
+{
+    body {
+        font-size: 0.8em;
+    }
+
+    .box {
+        max-width: 200px;
+    }
+
+    #res {
+        max-width: 150px;
+    }
+
+    .botao {
+        max-width: 150px;
+    }
+}
+
 .box {
     background-color: white;
     height: 450px;
