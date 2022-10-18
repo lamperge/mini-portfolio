@@ -33,6 +33,10 @@ body {
     .botao {
         max-width: 150px;
     }
+
+    .numero {
+        width: 70p;
+    }
 }
 
 .box {
@@ -48,7 +52,7 @@ body {
 }
 
 input {
-    width: 150px;
+    width: 100px;
     height: 35px;
     border-radius: 20px;
     margin-bottom: 20px;

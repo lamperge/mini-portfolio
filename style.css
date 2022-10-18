@@ -14,8 +14,10 @@ body  {
     background-color: #C9D2FF;
 }
 
-#memoji {
-    margin: 0px;
+nav {
+    background-color: white;
+    height: 35px;
+    color: black;
 }
 
 #tprincipal {
@@ -26,7 +28,7 @@ body  {
 }
 
 .conteiner {
-    height: 80vh;
+    height: 93vh;
     width: 80vh;
     margin: 5vh auto;
     border-radius: 5vh;
@@ -43,7 +45,8 @@ body  {
 @media (max-width: 400px) {
     .conteiner {
         max-width: 350px;
-        min-height: 750px;
+        min-height: 850px;
+        /*min-height: 800px; ~responsividade de novos botões */
     }
 
     body {
@@ -59,11 +62,10 @@ body  {
 button {
     height: 42px;
     width: 150px;
-    font-size: 1em;
     border-radius: 20px;
     font-weight: 500;
     border: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
     background-color: rgb(235, 233, 233);
     margin: 1vh 1vh 3vh 3vh ;
 }
@@ -87,4 +89,9 @@ footer {
 a {
     text-decoration: none;
     color: black;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
 }
