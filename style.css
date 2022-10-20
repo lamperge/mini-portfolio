@@ -45,14 +45,26 @@ nav {
 @media (max-width: 400px) {
     .conteiner {
         max-width: 350px;
-        min-height: 850px;
-        /*min-height: 800px; ~responsividade de novos botões */
+        min-height: 930px;
+        /*min-height: + ~responsividade de novos botões */
     }
 
     body {
         font-size: 0.9em;
     }
 }
+
+/*iphone se*/@media (max-width: 375px) {
+    .conteiner {
+        max-width: 350px;
+        min-height: 900px;
+        /*min-height: + ~responsividade de novos botões */
+    }
+
+    body {
+        font-size: 0.9em;
+    }
+} 
 
 
 .botoes {
