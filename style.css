@@ -42,7 +42,7 @@ nav {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
     .conteiner {
         max-width: 350px;
         min-height: 930px;
